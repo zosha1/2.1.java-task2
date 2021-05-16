@@ -5,7 +5,7 @@ public class Main {
         int coefficient = 100;
         int limit = 1000;
         int bonus = 0;
-        if (income >= limit) {
+        if (income > limit) {
             bonus = (int) income / coefficient;
         }
         amount = amount + income + bonus;
